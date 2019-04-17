@@ -18,10 +18,6 @@ func TestGetRangeSearchInput(t *testing.T) {
 	}
 }
 
-// func TestGetRangeSearchResult(t *testing.T) {
-// 	getRangeSearchResult(getRangeSearchInput("hello"))
-// }
-
 func TestCheckResultsForSuffix(t *testing.T) {
 	input := rangeSearchInput{
 		prefix: "AAF4C",
